@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    // two buttons added
+}
 
 @property (nonatomic, strong) UILabel *firstLabel;
 @property (nonatomic, strong) UILabel *secondLabel;
