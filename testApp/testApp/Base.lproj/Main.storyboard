@@ -32,11 +32,17 @@
                                 <rect key="frame" x="71" y="535" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="click"/>
+                                <connections>
+                                    <action selector="clickBTNAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Flg-ii-Xo8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbm-TZ-dLH">
                                 <rect key="frame" x="265" y="535" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="save"/>
+                                <connections>
+                                    <action selector="saveBTNAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BDq-at-zKZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

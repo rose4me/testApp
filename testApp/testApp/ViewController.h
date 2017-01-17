@@ -18,5 +18,10 @@
 @property (nonatomic, strong) UILabel *thirdLabel;
 @property (nonatomic, strong) UILabel *thirdCommit;
 
+
+-(IBAction)saveBTNAction:(id)sender;
+-(IBAction)clickBTNAction:(id)sender;
+
+
 @end
 
