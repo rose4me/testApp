@@ -25,9 +25,18 @@
     
     
     NSLog(@"Added Xib");
-
     
 }
+-(IBAction)saveBTNAction:(id)sender{
+    
+    NSLog(@"save");
+    
+    }
+-(IBAction)clickBTNAction:(id)sender{
+    
+    NSLog(@"click");
+    
+    }
 
 
 - (void)didReceiveMemoryWarning {
