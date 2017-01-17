@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic, strong) UILabel *firstLabel;
+@property (nonatomic, strong) UILabel *secondLabel;
+@property (nonatomic, strong) UILabel *thirdLabel;
 
 @end
 
