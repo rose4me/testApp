@@ -19,13 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSLog(@"Hello World :)");
-    NSLog(@"Second Commit");
-    NSLog(@"Third Commit");
-    NSLog(@"Third code base");
-    
-    
-    NSLog(@"Added Xib");
-    
+        
 }
 -(IBAction)saveBTNAction:(id)sender{
     

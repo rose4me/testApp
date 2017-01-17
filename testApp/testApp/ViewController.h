@@ -10,15 +10,10 @@
 
 @interface ViewController : UIViewController{
     
-    // two buttons added
+    
 }
 
-@property (nonatomic, strong) UILabel *firstLabel;
-@property (nonatomic, strong) UILabel *secondLabel;
-@property (nonatomic, strong) UILabel *thirdLabel;
-@property (nonatomic, strong) UILabel *thirdCommit;
-
-
+// Button Actions
 -(IBAction)saveBTNAction:(id)sender;
 -(IBAction)clickBTNAction:(id)sender;
 
